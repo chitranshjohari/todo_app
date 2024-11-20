@@ -1,0 +1,32 @@
+name: todo_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/done.png"  # Ensure this path is correct
+  adaptive_icon:
+    android: true
+    foreground: "assets/icons/done.png"  # Optional: Specify separate foreground image for adaptive icon
+    background: "assets/icons/background.png"  # Optional: Specify background image for adaptive icon
+
+
+flutter:
+  uses-material-design: true
